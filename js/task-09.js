@@ -11,6 +11,6 @@ const bgcBody = document.querySelector('body')
 changeBtn.addEventListener('click', onClickChangeBtn);
 
 function onClickChangeBtn() {
-  textSpan.textContent = getRandomHexColor();
-  bgcBody.style.backgroundColor = getRandomHexColor();
+  const bgc = textSpan.textContent = getRandomHexColor();
+  bgcBody.style.backgroundColor = bgc;
 }

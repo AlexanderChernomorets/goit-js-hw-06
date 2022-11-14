@@ -3,6 +3,8 @@ console.log('Number of categories:', categNum.children.length);
 
 const itemsEl = document.querySelectorAll('.item');
 
+
+
 for (const item of itemsEl) {
     console.log('Category:', item.firstElementChild.textContent);
     const elem = item.querySelector('ul');
